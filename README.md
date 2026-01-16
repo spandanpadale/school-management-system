@@ -37,3 +37,47 @@ The application allows managing students with CRUD operations and a dashboard ov
 
 ## 📂 Project Structure
 
+school-management-system/
+│
+├── backend/
+│ ├── controllers/
+│ ├── routes/
+│ ├── db.js
+│ ├── server.js
+│ └── package.json
+│
+├── frontend/
+│ ├── src/
+│ ├── components/
+│ ├── pages/
+│ └── package.json
+
+
+## ▶️ How to Run the Project
+
+## Backend
+bash
+cd backend
+npm install
+npm start
+
+
+## Frontend
+bash
+Copy code
+cd frontend
+npm install
+npm run dev
+
+## 🧠 Implementation Notes
+
+Soft delete is implemented using an isDeleted flag.
+
+The SQLite database file (school.db) is generated locally and is not committed to GitHub.
+
+This project works in restricted environments without admin permissions.
+
+## 👨‍💻 Author
+
+Spandan Padale
+
